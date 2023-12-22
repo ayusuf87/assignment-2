@@ -1,0 +1,183 @@
+body{
+    background-color: rgba(0, 0, 150, 0.1);
+}
+.container{
+    height: 480px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.form-up{
+    float: left;
+}
+/*LEFT*/
+.left{
+    height: 100%;
+    width: 40%;
+    padding: 90px 15px 15px 15px;
+    float: left;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background-image: url(img/Screenshot\ \(20\).png);
+    border-radius: 40px;
+    background-color: aquamarine;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+/*RIGHT*/
+.right{
+    height: 100%;
+    width: 47%;
+    float: left;
+    margin-left: 30px;
+}
+.form{
+    height: 95%;
+    width: 100%;
+    background-color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    padding: 35px 40px 35px 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 8px;
+}
+.bar{
+    width: 100%;
+    height: 30px;
+}
+.short{
+    height: 26px;
+    width: 100%;
+}
+.short2{
+    height: 26px;
+    width: 80%;
+}
+.short3{
+    margin-top: 20px;
+    height: 37px;
+    width: 104%;
+}
+.long2{
+    height: 25px;
+    width: 90%;
+}
+.long{
+    height: 37px;
+    width: 102%;
+}
+button{
+    height: 40px;
+    width: 102%;
+    margin-top: 20px;
+    background-color: aquamarine;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    color: white;
+    border: 1px solid aquamarine;
+}
+a{
+    color: aquamarine;
+}
+.fleft{
+    height: 46%;
+    width: 45%;
+    float: left;
+    margin-right: 15px;
+}
+.fright{
+    height: 46%;
+    width: 45%;
+    float: right;
+}
+input{
+    margin: 8px 0px 8px 0px;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+}
+.note p{
+    font-size: 12px;
+    text-align: center;
+}
+.psweye{
+    background-image: url(img/psw.jpg);
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    float: right;
+    margin-top: 5px;
+}
+.psweye:hover{
+    background-image: url(img/psw2.jpg);
+}
+select{
+    padding: 5px;
+    margin: 8px 0px 8px 0px;
+    border: 1px solid whitesmoke;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  [class*="container"] {
+    margin: 0px;
+    padding: 10px;
+  }
+  [class*="left"] {
+    width: 90%;
+    padding: 10px;
+
+  }
+  [class*="right"] {
+    width: 85%;
+    margin: 10px 0px 0px 10px;
+
+  }
+  [class*="form"] {
+    margin: 0px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 ;
+  }
+  [class*="long"] {
+    width: 100%;
+  }
+  [class*="short"] {
+    width: 100%;
+  }
+  [class*="fleft"] {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+  [class*="fright"] {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+  [class*="form-up"] {
+    padding: 0px;
+  }
+  [class*="shift"] {
+    margin-left: 0px;
+  }
+  [class*="sel"] {
+    height: 32px;
+    width: 94%;
+  }
+}
